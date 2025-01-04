@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chess</title>
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+
+  <main>
+    <h1>Chess</h1>
+    <div id="board"></div>
+    <div id="stats"></div>
+
+    <div class="finished-modal hidden">
+      <h1 id="finished-header"></h1>
+    </div>
+  </main>
+
+  <script src="./assets/script.js"></script>
+  <script>
+  document.addEventListener("DOMContentLoaded", () => {
+    drawGrid(document.querySelector("#board"));
+    const board = new Board("#board");
+
+    board.renderPieces();
+  });
+
+    
+  </script>
+</body>
+</html>
