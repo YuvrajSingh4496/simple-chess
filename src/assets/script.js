@@ -370,7 +370,7 @@ class King extends Piece {
     super(board);
     this.setColor(color);
     const prefix = color == WHITE.description ? "w_" : "b_";
-    this.setImage(`./assets/images/${prefix}King.png`);
+    this.setImage(`./assets/images/${prefix}king.png`);
   }  
 
   moves(row, column) {
