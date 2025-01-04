@@ -31,7 +31,7 @@ A simple chess application built using JavaScript that supports basic piece move
 
 ## Folder Structure
 ```
-chess-app/
+simple-chess/
 ├── src/
 │   ├── index.html
 │   ├── styles.css
@@ -39,8 +39,8 @@ chess-app/
 │   ├── assets/
 │   │   ├── images/
 ├── screenshots/
-│   ├── chess-board.png
-│   ├── rook-movement.png
+│   ├── board.png
+│   ├── victory.png
 ├── README.md
 ```
 
